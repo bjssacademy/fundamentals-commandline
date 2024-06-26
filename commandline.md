@@ -315,3 +315,31 @@ Of course, sometimes you want to delete files:
 2. Delete the `dest` folder
 
 ---
+
+## Common Commands
+
+# Common Windows Command Line Commands
+
+| Command     | Description                                               | Example                                                      |
+|-------------|-----------------------------------------------------------|--------------------------------------------------------------|
+| `dir`       | Displays a list of files and directories in the current directory. | `dir`                                                        |
+| `cd`        | Changes the current directory.                            | `cd C:\Users\YourUsername\Documents`                         |
+| `mkdir`     | Creates a new directory.                                  | `mkdir NewFolder`                                            |
+| `rmdir`     | Removes an empty directory.                               | `rmdir EmptyFolder`                                          |
+| `del`       | Deletes one or more files.                                | `del example.txt`                                            |
+| `copy`      | Copies one or more files to another location.             | `copy C:\source\file.txt D:\destination\`                    |
+| `move`      | Moves one or more files from one directory to another.    | `move C:\source\file.txt D:\destination\`                    |
+| `rename`    | Renames a file or directory.                              | `rename oldname.txt newname.txt`                             |
+| `type`      | Displays the contents of a text file.                     | `type file.txt`                                              |
+| `echo`      | Displays messages or turns on/off command echoing.        | `echo Hello, World!`                                         |
+| `cls`       | Clears the screen.                                        | `cls`                                                        |
+| `ipconfig`  | Displays network configuration details.                   | `ipconfig`                                                   |
+| `ping`      | Sends ICMP Echo Requests to network hosts.                | `ping google.com`                                            |
+| `tasklist`  | Displays a list of currently running processes.           | `tasklist`                                                   |
+| `taskkill`  | Terminates a process.                                     | `taskkill /IM notepad.exe /F`                                 |
+| `shutdown`  | Shuts down or restarts the computer.                      | `shutdown /s /t 0` (shutdown) <br> `shutdown /r /t 0` (restart) |
+| `systeminfo`| Displays detailed configuration information about the computer. | `systeminfo`                                                 |
+| `sfc`       | Scans and repairs protected system files.                 | `sfc /scannow`                                               |
+| `chkdsk`    | Checks the file system and status of the system's hard drives. | `chkdsk C:`                                                 |
+| `powercfg`  | Manages power settings.                                   | `powercfg /hibernate on`                                     |
+
